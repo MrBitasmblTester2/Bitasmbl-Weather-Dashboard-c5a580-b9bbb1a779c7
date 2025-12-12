@@ -1,0 +1,1 @@
+var b=WebApplication.CreateBuilder(args);b.Services.AddControllers();b.Services.AddMemoryCache();var app=b.Build();app.MapControllers();app.Run();
