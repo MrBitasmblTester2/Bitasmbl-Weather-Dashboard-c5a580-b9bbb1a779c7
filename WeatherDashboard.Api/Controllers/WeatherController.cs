@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.Mvc;namespace WeatherDashboard.Api.Controllers;[ApiController][Route("api/[controller]")]public class WeatherController:ControllerBase{[HttpGet("current")]public IActionResult GetCurrent(string city){return Ok();}[HttpGet("forecast")]public IActionResult GetForecast(string city){return Ok();}}
